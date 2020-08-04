@@ -20,7 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.071"
-        tools:text="name" />
+        tools:text="Name" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -29,16 +29,17 @@
         android:layout_marginTop="45dp"
         android:layout_marginEnd="93dp"
         android:layout_marginBottom="49dp"
+        android:autofillHints="no"
         android:ems="10"
+        android:hint="@string/edit_name"
         android:inputType="textPersonName"
         android:text="@string/edit_name"
-        android:autofillHints="no"
+        android:textColor="#887E7E"
         app:layout_constraintBottom_toTopOf="@+id/radioGroup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:text="edit_name"
         tools:ignore="LabelFor" />
 
     <RadioGroup
@@ -62,14 +63,14 @@
             android:layout_width="96dp"
             android:layout_height="wrap_content"
             android:text="@string/boy"
-            tools:text="gender_boy" />
+            tools:text="boy" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="80dp"
             android:layout_height="wrap_content"
             android:text="@string/girl"
-            tools:text="gender_girl" />
+            tools:text="girl" />
 
         <Switch
             android:id="@+id/switch1"
