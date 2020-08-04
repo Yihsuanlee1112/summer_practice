@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">summer_practice</string>
+    <string name="name">Name :</string>
+    <string name="edit_name">Name</string>
+    <string name="boy">boy</string>
+    <string name="girl">girl</string>
+    <string name="Switch">Switch</string>
+    <string-array name="city">
+        <item>台北市</item>
+        <item>台中市</item>
+        <item>新北市</item>
+        <item>高雄市</item>
+        <item>新竹市</item>
+    </string-array>
 </resources>
